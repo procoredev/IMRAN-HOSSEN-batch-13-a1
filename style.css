@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+   ;
+}
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ }
+
+
+
+.btn {
+        width: 132px;
+        height: 20px;
+        text-decoration: none;
+        color: aqua;
+        list-style: none;
+        padding-left: 16px;
+        /* padding-right: 16px; */
+        padding-top: 12px;
+        padding-bottom: 12px;
+        /* align-items: center; */
+
+     }
+
+
+.header {
+    background-color: red;
+    height: 92px;
+    width: 1600px;
+    padding: 16px, 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+    }
+    .logo{
+
+    }
+    .nav {
+         list-style: none;
+         display: flex;
+         gap: 32px;
+
+    }
+    .nav a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 16px;
+        font-weight: 500px;
+       
+     }
+
+     
+
+
