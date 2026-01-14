@@ -9,25 +9,24 @@
   font-optical-sizing: auto;
  }
 
-
-
 .btn {
         width: 132px;
         height: 20px;
         text-decoration: none;
-        color: aqua;
+        color: #30B868;
         list-style: none;
-        padding-left: 16px;
-        /* padding-right: 16px; */
-        padding-top: 12px;
-        padding-bottom: 12px;
+        /* padding: 16px 8px; */
+        /* padding-left: 16px; */
+        /* padding-right: 5px; 
+        padding-top: 16px;
+        padding-bottom: 16px; */
         /* align-items: center; */
-
+        /* padding: 5px, 16px; */
      }
 
 
 .header {
-    background-color: red;
+    background-color: white;
     height: 92px;
     width: 1600px;
     padding: 16px, 120px;
@@ -37,12 +36,9 @@
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 16px;  
+    }
     
-    }
-    .logo{
-
-    }
     .nav {
          list-style: none;
          display: flex;
@@ -51,11 +47,36 @@
     }
     .nav a {
         text-decoration: none;
-        color: #000000;
+        color: #30B868;
         font-size: 16px;
         font-weight: 500px;
        
      }
+ header .btn{
+    /* padding: 5px, 16px;
+    */
+    /* padding-left: 16px; */
+    font-size: 16px;
+    font-weight: 6000px;
+    line-height: 19px;
+    color: white;
+    
+ }
+.btn button{
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* padding: 16px, 10px; */
+}
+
+
 
      
 
