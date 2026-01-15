@@ -132,6 +132,17 @@ section .hero{
 
 }
 
+
+/* hero-02 section */
+
+
+
+
+
+
+
+
+
 /* note section */
 
 .note{
@@ -156,16 +167,81 @@ height: 448px;
 
 .note-header p{
     font-size: 16px;
+    padding-bottom: 44px;
 }
+
+.note-card{
+    gap: 10px;
+    display: flex;
+}
+
 
 .first-card {
    background-color: white;
    height: 300px;
    width: 322px;
-   padding-top: 25px;
-   align-items: center;
-   text-align: center;
+   padding-top: 75px;
+   align-items: center; 
+   text-align: center; 
+   border: 1px;
+   border-radius: 10px;
+   /* align-content: center; */
 }
+.card-img1 {
+    
+    background: red;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    margin-left: 130px;
+    
+}
+.card-img2 {
+    
+    background: red;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    
+    
+}
+.card-img3 {
+    
+    background: red;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+   
+    
+}
+.card-img4 {
+    
+    background: red;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    
+    
+}
+.card-icon {
+    color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.first-card h3{
+font-size: 24px;
+font-weight: 500px;
+color: #001931;
+padding-bottom: 10px;
+}
+
+.first-card p{
+    font-size: 16px;    
+    color: #627382;
+    
+}
+
 
 /* ready section */
 .ready{
