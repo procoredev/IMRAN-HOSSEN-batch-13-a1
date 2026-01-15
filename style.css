@@ -24,6 +24,14 @@
         /* padding: 5px, 16px; */
      }
 
+     h2{
+        font-size: 48px;
+        font-weight: ;
+     }
+
+     p{
+        font-size: 16px;
+     }
 
 .header {
     background-color: white;
@@ -76,8 +84,163 @@
     /* padding: 16px, 10px; */
 }
 
+section {
+    /* /* width: 2042px; */
+    /* height: 674px;  */
+    
+    /* padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 70px;
+    padding-bottom: 134px;
+    align-items: center; */
+    
+    
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /*justify-content: space-between;
+    /* align-items: center; */
+
+}
+section .hero{
+    /* width: 2042px;
+    height: 1363px; */
+    background: url(images/hero-bg.png);
+    
+
+    /* position: center; */
+
+}
+
+.about {
+    padding-top: 120px, 63px;
+    height: 448px;
+    background: #FBFBFB;
+
+    
+}
+.about .about-container{
+    /* width: 71%; */
+    /* max-width: 1140px; */
+    margin: 0, auto;
+    text-align: center;
 
 
+}
+
+.about .about-container{
+
+}
+
+/* note section */
+
+.note{
+background: #F7F6F2;
+height: 448px;
+
+}
+.note-area{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.note-header{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.note-header h2{
+    padding-bottom: 20px;
+    font-size: 48px;
+}
+
+.note-header p{
+    font-size: 16px;
+}
+
+.first-card {
+   background-color: white;
+   height: 300px;
+   width: 322px;
+   padding-top: 25px;
+   align-items: center;
+   text-align: center;
+}
+
+/* ready section */
+.ready{
+    height: 506px;
+    background: white;
+    margin: auto;
+    display: flex;
+    padding-left: 120px;
+    padding-bottom: 120px;
+    padding-right: 120px;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.ready1{
+    background: #F7F6F2;
+    height: 385px;
+    width: 1360px;  
+    padding: 80px 40px; 
+    gap: 20px;
+    align-items: center;
+    
+}
+.ready1 h2{
+    padding-bottom: 20px;
+}
+.ready1 p{
+    padding-bottom:15px;
+
+}
+ btn .readybtn{
+     align-items: center; 
      
+}
+
+ .ready2p p{ 
+    padding-top:15px;
+}
+
+
+/* footer area */
+
+.ftr {
+background-color: #001931;
+margin: 0, auto;
+height: 348px;
+}
+
+
+footer .footer-area {
+     padding-top: 120px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+    
+}
+.footer-left {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 80px;
+}
+.footer-icon h3{
+    color:white;
+    text-align: center; 
+    font-weight: 400px;
+}
+
+.footer-bottom p{
+    color: whitesmoke;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
 
 
